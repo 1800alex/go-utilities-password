@@ -1,0 +1,9 @@
+language: go
+
+go:
+- 1.12.x
+- master
+
+env:
+  - GOOS=linux GOARCH=386
+  - GOOS=linux GOARCH=arm
