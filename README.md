@@ -1,8 +1,8 @@
-# password [![GoDoc](https://godoc.org/github.com/1800alex/go-utilities-password?status.svg)](https://godoc.org/github.com/1800alex/go-utilities-password)
+# password
 [![Build Status](https://travis-ci.com/1800alex/go-utilities-password.svg?branch=master)](https://travis-ci.com/1800alex/go-utilities-password)
 [![Coverage Status](https://coveralls.io/repos/github/1800alex/go-utilities-password/badge.svg?branch=master)](https://coveralls.io/github/1800alex/go-utilities-password?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/1800alex/go-utilities-password)](https://goreportcard.com/report/github.com/1800alex/go-utilities-password)
-
+[![GoDoc](https://godoc.org/github.com/1800alex/go-utilities-password?status.svg)](https://godoc.org/github.com/1800alex/go-utilities-password)
 
 Package go-utilities-password provides a library for generating high-entropy random password strings via the crypto/rand package.
 
