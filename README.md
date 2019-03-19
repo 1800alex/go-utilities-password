@@ -17,3 +17,67 @@ Most functions are safe for concurrent use.
 
 
 
+
+# Examples
+
+Generate
+Code:
+
+```
+{
+	res, err := Generate(64, true, true, false, false)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Print(res)
+}
+```
+
+
+Generator Generate
+Code:
+
+```
+{
+	gen, err := NewGenerator(nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+	res, err := gen.Generate(64, true, true, false, false)
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Print(res)
+}
+```
+
+
+NewGenerator custom
+Code:
+
+```
+{
+	gen, err := NewGenerator(&GeneratorInput{Symbols: "!@#$%^()"})
+	if err != nil {
+		log.Fatal(err)
+	}
+	_ = gen
+}
+```
+
+
+NewGenerator nil
+Code:
+
+```
+{
+	gen, err := NewGenerator(nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+	_ = gen
+}
+```
+
+
+
